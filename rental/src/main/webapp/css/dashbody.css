@@ -1,0 +1,507 @@
+#dash-wrap {
+    position: relative;
+}
+
+.dash-body {
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.dash-footer .logout {
+    background-color: inherit;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+.dash-title-box {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #102A71;
+}
+
+.dash-title-box h2 {
+    font-size: 26px;
+    color: #102A71;
+}
+
+.dash-info-box {
+    margin-top: 60px;
+}
+
+.dash-info-box {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #102A71;
+}
+
+.dash-info-box h4 {
+    font-size: 20px;
+    color: #102A71;
+}
+
+.top-content {
+    height: 50vh;
+}
+
+.bottom-content .content-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* form 시작 */
+
+.top-content form {
+    margin-top: 5px;
+}
+
+.top-content form select option{
+    box-shadow: none !important;
+}
+
+.top-content form select {
+    box-shadow: none !important;
+    outline: 0;
+    padding: 4px;
+    margin: 10px 0;
+}
+
+.top-content form input {
+    margin: 10px 0;
+    padding: 4px;
+    outline: none;
+}
+
+.form-con-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.search-line {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* .search-line .lb {
+    width: 321px;
+} */
+
+.search-line-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-line-box input[type=text] {
+    width: 100px;
+}
+
+.search-line-box select {
+    width: 100px;
+}
+
+.search-box {
+    margin-right: 15px;
+}
+
+.search-box input[readonly] {
+    border: none;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.search-box select {}
+
+.form-con-box .form-title {
+    width: 100px;
+    color: #102A71;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.radio-box {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    padding: 7px 0; 
+}
+
+.radio-box input {
+    margin-right: 4px;
+}
+
+form .button-box {
+    margin-top: 40px;
+    text-align: center;
+}
+
+form button {
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    line-height: 1.2em;
+}
+
+form .search-btn {
+    margin-right: 10px;
+    background-color: #102A71;
+    color: #fff;   
+}
+
+form .search-btn:hover {
+    background-color: #89CFF0;
+    color: #102A71;
+}
+
+form .reset-btn {
+    margin-left: 10px;
+    color: #102A71;
+}
+
+form .reset-btn:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+form .search-box {
+    margin-right: 40px;
+}
+
+/* form 끝 */
+
+.content-list table {
+    border-top: 2px solid #102A71;
+    border-bottom: 2px solid #102A71;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.content-list table th {
+    padding: 10px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.content-list table td {
+    padding: 15px 0;
+
+}
+
+.content-list table button {
+    cursor: pointer;
+}
+
+/* botton-content */
+
+.table-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.table-title {
+    color: #102A71;
+    font-size: 24px;
+}
+
+    /* table 시작 */
+
+.bottom-content thead {
+    color: #102A71;
+}
+
+.table-top button {
+    background-color: #102A71;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.star {
+    color: #FFCE0F;
+}
+
+/* table 끝 */
+
+/* add, modify 시작*/
+
+.adm-form-box {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid #102A71;
+}
+.adm-form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.adm-form-title {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+.adm-form .form-frame {
+    margin-bottom: 40px;
+}
+
+.adm-form .form-frame .label-tag {
+    width: 120px;
+}
+
+.adm-form .form-frame input {
+    outline: none;
+    padding: 10px;
+    width: 400px;
+}
+
+.adm-form input[readonly] {
+    background-color: #D4D4D4;
+    border: none;
+}
+
+.form-frame {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.adm-form .form-frame input.s-input {
+    width: 120px;
+}
+
+.adm-form .form-frame input.s-input.s-mr {
+    margin-right: 40px;
+}
+
+.adm-form-box .img-frame {
+    padding: 20px 0;
+}
+
+.img-frame input[type=file] {
+    width: 200px;
+    padding-left: 0px;
+}
+
+.btn-frame {
+    margin-bottom: 40px;
+}
+
+#preview {
+    width: 200px;
+    height: 100px;
+}
+
+.btn-frame button[type=submit] {
+    background-color: #102A71;
+    color: #fff;
+}
+
+.btn-frame button {
+    width: 160px;
+    padding: 15px;
+    background-color: inherit;
+    border: 1px solid #102A71;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+/* memberModify 시작  */
+
+.member-modify .email-part .first-email {
+    width: 20% !important;
+}
+
+.member-modify .email-part .at {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.member-modify .email-part .second-email {
+    width: 20% !important;
+    margin-right: 12px;
+}
+
+.member-modify .email-part select {
+    padding: 10px;
+}
+
+.member-modify .gender-part {
+    display: flex;
+    align-items: center;
+}
+
+.member-modify .age-part {
+    display: flex;
+    align-items: center;
+}
+
+/* memberModify 끝  */
+
+/* 성별, 나이 끝 */
+
+
+/* 다음 api 주소 */
+
+.member-modify .address-part .mail-sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-modify .address-part {
+    width: 100% !important;
+}
+
+.member-modify .address-part input#sample3_postcode{
+    width: 70% !important;
+    margin-right: 10px;
+}
+
+.member-modify .address-part .w2 {
+    width: 30% !important;
+    margin-left: 10px;
+    background-color: #102A71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.member-modify .address-part .mail-gap {
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+.member-modify .address-part input.w3 {
+    width: 100% !important;
+}
+
+.member-modify .address-part input.w4 {
+    width: 100% !important;
+    margin-right: 10px;
+}
+.member-modify .address-part .w5 {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.member-modify .submit-btn {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: #102A71;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* add, modify 끝*/
+
+
+/* board write 시작*/
+
+
+
+/* board write 끝*/
+
+.board-box {
+    padding: 50px;
+}
+
+.board-top-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+.board-form-box {
+    padding: 20px 50px;
+    border: 1px solid #102A71;
+    background-color: #fafafa;
+}
+
+.board-title-box {
+    padding: 20px 0;
+    border-bottom: 2px solid #102A71;
+}
+
+.board-title-text {
+    color: #102A71;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.board-title-box input {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.board-info-box {
+    padding: 20px 0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.board-info-text {
+    color: #102A71;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.board-info-box textarea {
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.board-form-box .img-frame {
+    margin-bottom: 20px;
+}
+
+.board-form-box .img-frame .label-tag {
+    font-weight: bold;
+    color: #102A71;
+}
+
+.btn-frame {
+    text-align: center;
+}
+
+/* pagination 시작 */
+
+.page-num-list {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.page-num-list button {
+    width: 30px;
+    height: 30px;
+    color: #102A71;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+}
+
+.page-num-list button:focus {
+    background-color: #102A71;
+    color: #fff;
+}
+
+/* pagination 끝 */

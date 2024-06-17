@@ -1,0 +1,1624 @@
+/* login page 시작 */
+
+#login-page {}
+
+.login-box {
+    padding-top: 250px;
+    padding-bottom: 150px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-box .login-title {
+    font-size: 24px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.login-box .login-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #102A71;
+}
+
+.login-box .login-form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #EDEDED;
+    border: none;
+    outline: none;
+}
+
+.login-box .login-form button.submit-btn {
+    width: 100%;
+    padding: 20px;
+    background-color: #102A71;
+    border: none;
+    font-size: 18px;
+    color: #fff;    
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.login-box .find-btn {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #999;
+}
+
+.login-box a.go-join-form {
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    padding: 8px;
+    color: #fff;
+    background-color: #102A71;
+    font-size: 16px;cursor: pointer;
+}
+
+/* login page 끝 */
+
+/* find id 시작 */
+
+.find-box {
+    padding-top: 250px;
+    padding-bottom: 150px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.find-box .find-title {
+    font-size: 24px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.find-box .find-form {
+    width: 400px;
+    margin: 0 auto;
+    border-bottom: 2px solid #102A71;
+}
+
+.find-box .find-form .form-group {
+    margin-bottom: 20px;
+}
+
+.find-box .find-form .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #102A71;
+    border: none;
+    font-size: 18px;
+    color: #fff;    
+    cursor: pointer;
+}
+
+.find-box input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #ededed;
+}
+
+.find-box .myid {
+    margin-top: 30px;
+    font-size: 16px;
+    /* display: none; */
+}
+
+.find-box .mypwd-form {
+    margin-top: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.find-box .mypwd input {
+    margin-top: 30px;
+}
+
+.find-box .mypwd button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #102A71;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* find id 끝 */
+
+
+/* joinForm 시작 */
+
+.joinform-box {
+    padding: 200px 0;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.joinform-title {
+    font-size: 32px;
+    color: #102A71;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 3px solid #102A71;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.joinform {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.joinform .form-group {
+    margin-bottom: 30px;
+}
+
+.joinform .form-group .label-tag {
+    color: #102A71;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.joinform .form-group .label-tag span {
+    color: red;
+    font-size: 13px;
+}
+
+.joinform input{
+    width: 100%;
+    padding: 10px;
+}
+
+.joinform .id-part input {
+    width: 70%;
+}
+
+.joinform .id-part button {
+    width: 25%;
+    color: #fff;
+    background-color: #102A71;
+    border: none;
+    cursor: pointer;
+}
+
+.joinform .sort {
+    display: flex;
+    justify-content:space-between;
+}
+
+.joinform .email-part {}
+.joinform .email-part .at {
+    color: #102A71;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 15px;
+}
+.joinform .email-part .email-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joinform .email-part select {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* 성별, 나이  시작 */
+
+.joinform .flex-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.joinform .flex-part .gender-box {
+    display: flex;
+    align-items: center;
+}
+
+.joinform .flex-part .gender-box div {
+    display: flex;
+}
+
+.joinform .flex-part .gender-box input {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.joinform .flex-part .gender-box label {
+    width: 100px;
+}
+
+.joinform .gender-part, .joinform .age-part {
+    width: 50%;
+}
+
+.joinform .age-part input {
+    background-color: #d4d4d4;
+    border: none;
+    outline: none;
+}
+/* 성별, 나이 끝 */
+
+
+/* 다음 api 주소 */
+
+.joinform .address-part .mail-sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.joinform .address-part input#sample3_postcode{
+    width: 70%;
+    margin-right: 10px;
+}
+
+.joinform .address-part .w2 {
+    width: 30%;
+    margin-left: 10px;
+    background-color: #102A71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.joinform .address-part .mail-gap {
+    margin-bottom: 15px;
+}
+
+address-part .w4 {
+    margin-right: 10px;
+}
+.joinform .address-part .w5 {
+    margin-left: 10px;
+}
+
+.joinform .submit-btn {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: #102A71;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.identify {
+    display: none;  
+}
+/* joinForm 끝 */
+
+/* carbookhome 시작 */
+
+.selectbookdate-box {
+    padding: 200px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.selectbookdate-box .select-date-box {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #999;
+    margin-bottom: 150px;
+}
+
+.selectbookdate-box .select-date-box form {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectbookdate-box .select-date-box form input {
+    padding: 5px;
+}
+
+.selectbookdate-box .select-date-box form select {
+    padding: 5px;
+    width: 100px;
+}
+
+.selectbookdate-box .select-date-box input[name="selectdate"] {
+    outline: none;
+    margin-right: 30px;
+}
+
+.date-form-box .date-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.date-form-box .date-form-group .car-sort {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.date-form-box .date-form-group .date-text {
+    margin-right: 10px;
+}
+
+.date-form-box .date-form-group .car-text {
+    width: 50px;
+}
+
+.date-form-box .range-bar-group {
+    display: flex;
+}
+
+.selectbookdate-box .select-date-box input[readonly] {
+    width: 100px;
+    border: none;
+    outline: none;
+}
+
+.cartypes {
+    margin-left: -22px;
+}
+
+.cartypes select {
+    margin-right: 70px;
+}
+
+.date-form-group button.car-form-submit {
+    background-color: #102A71;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.date-form-group button.car-form-reset {
+    background-color: #ededed;
+    color: #333;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.afr-list-box ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.afr-list-box ul form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.afr-list-box ul li.afr-list {
+    width: 33%;
+    padding: 20px 5px;
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afr-list-box .afr-left-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.afr-list-box .afr-left-info img {
+    height: 100px;
+}
+
+.afr-list-box .afr-left-info span {
+    color: #999;
+}
+
+.afr-list-box .afr-right-info {
+    width: 50%;
+}
+
+.afr-list-box .afr-right-info .afrcar-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.afr-list-box .afr-right-info .afrcar-price {
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.afr-list-box .afr-right-info .afr-btn {
+    font-size: 16px;
+    background-color: #d4d4d4;
+    border: none;
+    padding: 5px 18px;
+    cursor: pointer;
+}
+
+.afr-list-box .afr-right-info .afr-btn:hover {
+    background-color: #102A71;
+    color: #fff;
+}
+
+/* carbookhome 끝 */
+
+/* bookpage 시작 */
+
+#carbookpage {}
+.bookpage-inner {
+    padding: 180px 0;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.bookpage-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bookpage-box .bookpage-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+.bookpage-box .book-section-title {
+    padding: 24px 0 24px 36px;
+    background-color: #ececec;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.bookpage-box .bookinfo {
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.bookpage-box .bookinfo .bookinfo-name {
+    width: 80px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.bookpage-box .bookinfo .book-member {
+    margin-bottom: 20px;
+}
+.bookpage-box .bookinfo .book-car {
+    margin-bottom: 20px;
+}
+.bookpage-box .bookinfo .book-date {
+    margin-bottom: 40px;
+}
+
+.bookpage-box .book-date-d {
+    margin-top: 10px;
+}
+
+.bookpage-box .bookinfo .book-date input {
+    padding: 10px;
+
+}
+
+.bookpage-box .bookinfo .sub-anno-box {
+    font-size: 13px;
+    color: #444;
+}
+
+.bookpage-box .bookpayment {
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.bookpage-box .bookpayment .main-price-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bookpage-box .bookpayment .book-price {
+    font-weight: bold;
+}
+
+.bookpage-box .bookpayment .option-price-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.bookpage-box .bookpayment .option-price {
+    color: red;
+    font-weight: bold;
+}
+
+.bookpage-box .select-option-box input[type=radio]{
+    display: none;
+}
+
+.bookpage-box .select-option-box label{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 10px;
+    border: 2px solid #999;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+}
+
+.bookpage-box .select-option-box input[type=radio]:checked + label {
+    color: red;
+    border: 2px solid red;
+}
+
+.bookpage-box .bookconfirm {
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.bookpage-box .bookconfirm .main-price-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bookpage-box .bookconfirm .book-price {
+    font-weight: bold;
+}
+
+.bookpage-box .bookconfirm .option-price-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookpage-box .bookconfirm .option-price {
+    font-weight: bold;
+}
+
+.bookpage-box .total-price-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid #838383;
+    border-bottom: 1px solid #838383;
+    margin-bottom: 40px;
+}
+
+.bookpage-box .total-price-text {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bookpage-box .total-price {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+.bookpage-box .confirm-box {
+    text-align: center;
+}
+
+.bookpage-box .confirm-box .bookconfirm-btn {
+    padding: 14px 40px;
+    cursor: pointer;
+    background-color: #ececec;
+    border: none;
+    font-size: 18px;
+}
+
+.bookpage-box .confirm-box .bookconfirm-btn:hover {
+    background-color: #102A71;
+    color: #fff;
+    font-weight: bold;
+}
+
+.select-nonebook {
+	height:40px;
+	outline: none;
+	cursor: pointer;
+}
+
+.confirm-date {
+	padding: 10px;
+	background-color: #102A71;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* bookpage 끝 */
+
+@media screen and (max-width: 1300px) {
+
+    /* carbookhome 시작 */
+
+    .selectbookdate-box {
+        padding: 200px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .selectbookdate-box .select-date-box {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .selectbookdate-box .select-date-box {}
+
+    .selectbookdate-box .select-date-box form {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .selectbookdate-box .select-date-box form input {
+        padding: 5px;
+    }
+
+    .selectbookdate-box .select-date-box form select {
+        padding: 5px;
+        width: 100px;
+    }
+
+    .selectbookdate-box .select-date-box input[name="selectdate"] {
+        margin-right: 30px;
+    }
+
+    .date-form-box .date-form-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .date-form-box .date-form-group .car-sort {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+
+    .date-form-box .date-form-group .date-text {
+        margin-right: 10px;
+    }
+
+    .date-form-box .date-form-group .car-text {
+        width: 50px;
+    }
+
+    .date-form-box .range-bar-group {
+        display: flex;
+    }
+
+    .selectbookdate-box .select-date-box input[readonly] {
+        width: 100px;
+        border: none;
+        outline: none;
+    }
+
+    .cartypes {
+        margin-left: -22px;
+    }
+
+    .cartypes select {
+        margin-right: 70px;
+    }
+
+    .date-form-group button.car-form-submit {
+        background-color: #102A71;
+        color: #fff;
+        margin-top: 20px;
+        padding: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+    }
+
+    .date-form-group button.car-form-reset {
+        background-color: #ededed;
+        color: #333;
+        padding: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+    }
+
+    .afr-list-box ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .afr-list-box ul li.afr-list {
+        width: 30%;
+        padding: 15px 4px;
+    }
+
+    .afr-list-box .afr-left-info {
+        margin-right: 6px;
+    }
+
+    .afr-list-box .afr-left-info img {
+        width: 160px;
+        height: inherit;
+    }
+
+    .afr-list-box .afr-right-info {
+        width: 50%;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-name {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-price {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .afr-list-box .afr-right-info .afr-btn {
+        font-size: 15px;
+        padding: 4px 16px;
+    }
+
+    /* carbookhome 끝 */
+}
+
+@media screen and (max-width: 1023px) {
+    /* carbookhome 시작 */
+
+    .selectbookdate-box {
+        padding: 180px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .selectbookdate-box .select-date-box {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .selectbookdate-box .select-date-box form {
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+
+    .selectbookdate-box .select-date-box form input {
+        padding: 5px;
+    }
+
+    .selectbookdate-box .select-date-box form select {
+        padding: 5px;
+        width: 100px;
+    }
+
+    .top-form {
+        margin-bottom: 20px;
+    }
+
+    .selectbookdate-box .select-date-box input[name="selectdate"] {
+        margin-right: 30px;
+    }
+
+    .date-form-box .date-form-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .date-form-box .date-form-group .car-sort {
+        display: block;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .date-form-box .date-form-group .date-text {
+        margin-right: 10px;
+    }
+
+    .date-form-box .date-form-group .car-text {
+        width: 50px;
+    }
+
+    .cartypes {
+        margin-left: 0px;
+        width: 100% !important
+    }
+
+    .carbook input {
+        width: 200px !important;
+    }
+
+    .cartypes select {
+        margin-right: 0px;
+        width: 200px !important;
+    }
+    
+    .caroils select {
+        margin-right: 0px;
+        width: 200px !important;
+    }
+
+    .car-form-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .date-form-group button.car-form-submit {
+        margin-top: 0px;
+        padding: 15px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .date-form-group button.car-form-reset {
+        padding: 15px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .afr-list-box ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .afr-list-box ul li.afr-list {
+        width: 50%;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+    }
+
+    .afr-list-box .afr-left-info {
+        margin-right: 6px;
+    }
+
+    .afr-list-box .afr-left-info img {
+        width: 200px;
+        height: inherit;
+    }
+
+    .afr-list-box .afr-right-info {
+        width: 50%;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-name {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-price {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .afr-list-box .afr-right-info .afr-btn {
+        font-size: 15px;
+        padding: 4px 16px;
+    }
+
+    /* carbookhome 끝 */
+}
+
+@media screen and (max-width: 767px) {
+    /* 575 */
+    /* joinForm 시작 */
+
+    .joinform-box {
+        padding: 200px 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+    
+    .joinform-title {
+        font-size: 28px;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .joinform {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .joinform .form-group {
+        margin-bottom: 30px;
+    }
+    
+    .joinform .form-group .label-tag {
+        font-size: 16px;
+    }
+    
+    .joinform .form-group .label-tag span {
+        font-size: 12px;
+    }
+    
+    .joinform input{
+        width: 100%;
+        padding: 12px;
+    }
+    
+    .joinform .id-part input {
+        width: 70%;
+    }
+    
+    .joinform .id-part button {
+        width: 25%;
+    }
+    
+    .joinform .email-part .at {
+        font-size: 18px;
+        margin: 0 12px;
+    }
+    
+    .joinform .email-part select {
+        padding: 12px;
+    }
+    
+    /* 성별, 나이  시작 */
+    
+    .joinform .flex-part {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .joinform .flex-part .gender-box {
+        display: flex;
+        align-items: center;
+        height: 36px;
+    }
+    
+    .joinform .flex-part .gender-box div {
+        display: flex;
+    }
+    
+    .joinform .flex-part .gender-box input {
+        width: 20px;
+        margin-right: 10px;
+    }
+    
+    .joinform .flex-part .gender-box label {
+        width: 100px;
+    }
+    
+    .joinform .gender-part, .joinform .age-part {
+        width: 50%;
+    }
+    /* 성별, 나이 끝 */
+    
+    
+    /* 다음 api 주소 */
+
+    .joinform div#wrap {
+        width: 100% !important
+    }
+
+    /* joinForm 끝 */
+
+    /* find id 시작 */
+
+    .find-box {
+        padding-top: 200px;
+        padding-bottom: 150px;
+        width: 100%;
+    }
+
+    .find-box .find-title {
+        font-size: 24px;
+        margin-bottom: 80px;
+    }
+
+
+    /* find id 끝 */
+
+    /* bookpage 시작 */
+
+    #carbookpage {}
+
+
+    .bookpage-inner {
+        padding: 150px 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bookpage-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bookpage-box .bookinfo {
+        padding: 15px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .bookpage-box .bookinfo .bookinfo-name {
+        width: 80px;
+        display: inline-block;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    .bookpage-box .bookpayment {
+        padding: 15px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .bookpage-box .bookpayment .main-price-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .bookpage-box .bookpayment .book-price {
+        font-weight: bold;
+    }
+
+    .bookpage-box .bookpayment .option-price-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .bookpage-box .bookpayment .option-price {
+        color: red;
+        font-weight: bold;
+    }
+
+    .bookpage-box .select-option-box  {
+        
+    }
+
+    .bookpage-box .select-option-box input[type=radio]{
+        display: none;
+    }
+
+    .bookpage-box .select-option-box label{
+        display: inline-block;
+        border-radius: 10px;
+        padding: 20px 10px;
+        border: 2px solid #999;
+        margin-right: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #999;
+        cursor: pointer;
+    }
+
+    .bookpage-box .select-option-box input[type=radio]:checked + label {
+        color: red;
+        border: 2px solid red;
+    }
+
+    .bookpage-box .bookconfirm {
+        padding: 15px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .bookpage-box .bookconfirm .main-price-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .bookpage-box .bookconfirm .book-price {
+        font-weight: bold;
+    }
+
+    .bookpage-box .bookconfirm .option-price-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bookpage-box .bookconfirm .option-price {
+        font-weight: bold;
+    }
+
+    .bookpage-box .total-price-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-top: 1px solid #838383;
+        border-bottom: 1px solid #838383;
+        margin-bottom: 40px;
+    }
+
+    .bookpage-box .total-price-text {
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .bookpage-box .total-price {
+        padding-right: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
+    }
+
+    .bookpage-box .confirm-box {
+        text-align: center;
+    }
+
+    .bookpage-box .confirm-box .bookconfirm-btn {
+        padding: 14px 40px;
+        cursor: pointer;
+        background-color: #ececec;
+        border: none;
+        font-size: 18px;
+    }
+
+    .bookpage-box .confirm-box .bookconfirm-btn:hover {
+        background-color: #102A71;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    /* bookpage 끝 */
+
+    /* carbookhome 시작 */
+
+    .selectbookdate-box {
+        padding: 150px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .selectbookdate-box .select-date-box {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .selectbookdate-box .select-date-box form {
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+
+    .selectbookdate-box .select-date-box form input {
+        padding: 5px;
+    }
+
+    .selectbookdate-box .select-date-box form select {
+        padding: 5px;
+        width: 100px;
+    }
+
+    .top-form {
+        margin-bottom: 20px;
+    }
+
+    .selectbookdate-box .select-date-box input[name="selectdate"] {
+        margin-right: 30px;
+    }
+
+    .date-form-box .date-form-group {
+        display: block;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .date-form-box .date-form-group .car-sort {
+        display: block;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .date-form-group button.car-form-submit {
+        padding: 12px;
+        font-size: 15px;
+        margin-right: 6px;
+    }
+
+    .date-form-group button.car-form-reset {
+        padding: 12px;
+        font-size: 15px;
+        margin-left: 6px;
+    }
+
+    .afr-list-box ul li.afr-list {
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: center;
+        padding-left: 40px;
+    }
+
+    .afr-list-box .afr-left-info {
+        margin-right: 10px;
+    }
+
+    .afr-list-box .afr-left-info img {
+        width: 300px;
+        margin-right: 30px;
+    }
+
+    .afr-list-box .afr-right-info {
+        width: inherit;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-name {
+        font-size: 18px;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-price {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .afr-list-box .afr-right-info .afr-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    /* carbookhome 끝 */
+    
+}
+
+@media screen and (max-width: 524px) {
+    /* login home */
+
+    .login-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+
+    .login-box .login-title {
+        font-size: 22px;
+        margin-bottom: 60px;
+    }
+
+    .login-box .login-form {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .login-box .login-form input {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .login-box .login-form button.submit-btn {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .login-box .find-btn {
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .login-box a.go-join-form {
+        width: 80%;
+        padding: 10px;
+    }
+
+    /* login home 끝 */
+
+    /* joinForm 시작 */
+
+    .joinform-box {
+        padding: 150px 20px;
+    }
+    
+    .joinform-title {
+        font-size: 26px;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .joinform {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .joinform .email-part .at {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    .joinform input{
+        padding: 8px;
+    }
+    
+    .joinform .email-part select {
+        padding: 8px;
+    }
+    
+    /* 성별, 나이  시작 */
+
+    
+    .joinform .flex-part .gender-box label {
+        width: 80px;
+    }
+    
+    .joinform .gender-part, .joinform .age-part {
+        width: 30%;
+    }
+    /* 성별, 나이 끝 */
+
+
+    /* joinForm 끝 */
+
+    /* find form 시작 */
+
+    .find-box {
+        padding: 150px 20px;
+        width: 100%;
+    }
+
+    .find-box .find-title {
+        font-size: 22px;
+        margin-bottom: 60px;
+    }
+
+    .find-box .find-form {
+        width: 100%;
+    }
+    
+    .find-box .find-form .form-group button {
+        width: 100%;
+        padding: 10px;
+        background-color: #102A71;
+        border: none;
+        font-size: 18px;
+        color: #fff;    
+        cursor: pointer;
+    }
+
+    .find-box input {
+        width: 100%;
+        padding: 20px;
+        border: none;
+        outline: none;
+        background-color: #ededed;
+    }
+
+    .find-box .myid {
+        margin-top: 30px;
+        font-size: 16px;
+        /* display: none; */
+    }
+
+    .find-box .mypwd-form {
+        margin-top: 30px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .find-box .mypwd input {
+        margin-top: 30px;
+    }
+
+    .find-box .mypwd button {
+        margin-top: 30px;
+        width: 100%;
+        background-color: #102A71;
+        color: #fff;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    /* find form 끝 */
+
+    /* bookpage 시작 */
+
+    .bookpage-box .bookpage-title {
+        font-size: 28px;
+        margin-bottom: 80px;
+    }
+
+    .bookpage-box .book-section-title {
+        padding: 20px 0 20px 28px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .bookpage-box .bookinfo {
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    
+    .bookpage-box .bookinfo .bookinfo-name {
+        width: 60px;
+    }
+    
+    .bookpage-box .bookinfo .book-member {
+        margin-bottom: 14px;
+    }
+    .bookpage-box .bookinfo .book-car {
+        margin-bottom: 14px;
+    }
+    .bookpage-box .bookinfo .book-date {
+        margin-bottom: 30px;
+    }
+    
+    .bookpage-box .bookinfo .sub-anno-box {
+        font-size: 12px;
+    }
+
+    .bookpage-box .bookpayment {
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .bookpage-box .select-option-box label{
+        padding: 16px 8px;
+        border: 1px solid #999;
+        font-size: 16px;
+    }
+
+    .bookpage-box .select-option-box input[type=radio]:checked + label {
+        border: 1px solid red;
+    }
+
+    .bookpage-box .bookconfirm  {
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .bookpage-box .total-price-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-top: 1px solid #838383;
+        border-bottom: 1px solid #838383;
+        margin-bottom: 40px;
+    }
+
+    .bookpage-box .total-price-text {   
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    .bookpage-box .total-price {
+        padding-right: 15px;
+        font-size: 18px;
+    }
+
+    .bookpage-box .confirm-box .bookconfirm-btn {
+        padding: 12px 30px;
+        background-color: #ececec;
+        font-size: 17px;
+    }
+
+    /* bookpage 끝 */
+
+    /* carbookhome 시작 */
+
+    .selectbookdate-box {
+        padding: 120px 0;
+    }
+
+    .selectbookdate-box .select-date-box {
+        margin-bottom: 80px;
+    }
+
+    .selectbookdate-box .select-date-box form input {
+        padding: 5px;
+        width: 90%;
+    }
+
+    .selectbookdate-box .select-date-box form select {
+        padding: 5px;
+        width: 100% !important;
+    }
+
+    .top-form {
+        margin-bottom: 20px;
+    }
+
+    .selectbookdate-box .select-date-box input[name="selectdate"] {
+        margin-right: 30px;
+        width: 100% !important;
+    }
+
+    .date-form-box .date-form-group {
+        display: block;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .afr-list-box ul li.afr-list {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .afr-list-box .afr-left-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .afr-list-box .afr-left-info img {
+        width: 300px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .afr-list-box .afr-right-info {
+        width: inherit;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .afr-list-box .afr-right-info .afr-flex-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-name {
+        font-size: 22px;
+        height: inherit;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .afr-list-box .afr-right-info .afrcar-price {
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+
+    .afr-list-box .afr-right-info .afr-btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    /* carbookhome 끝 */
+}

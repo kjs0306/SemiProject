@@ -1,0 +1,1184 @@
+/* section home 시작 */
+
+.section-home-bg {
+    position: relative;
+    background-image: url(../images/pc_main_visual.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.section-home-bg .main-book-box {
+    position: absolute;
+    width: 960px;
+    height: 260px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+}
+
+ul.maintabs{
+    display: flex;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+}
+
+ul.maintabs li{
+    width: 50%;
+    text-align: center;
+    color: #222;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 0;
+    margin-bottom: -2px;
+}
+
+ul.maintabs li.select{
+    color: #102A71;
+    border-bottom: 3px solid #102A71;
+}
+
+.main-content{
+    display: none;
+    margin-top: 20px;
+    padding: 45px 0;
+}
+
+.main-content.select{
+    display: inherit;
+}
+
+#carRent .carrent-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#carRent .carrent-form input {
+    padding: 20px 15px;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    color: #222;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#carRent .carrent-form input::placeholder {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+}
+
+#carRent .carrent-form button {
+    width: 13%;
+    padding: 10px;
+    background-color: #102A71;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#bookSearch .booksearch-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bookSearch .booksearch-form input {
+    padding: 20px 15px;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#bookSearch .booksearch-form input::placeholder {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+}
+
+#bookSearch .booksearch-form button {
+    width: 13%;
+    padding: 10px;
+    background-color: #102A71;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* section home 끝 */
+
+/* section event 시작 */
+
+#section-event {}
+
+ul.event-list-box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ul.event-list-box li img {
+    margin-bottom: 14px;
+}
+
+ul.event-list-box li p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* section event 끝 */
+
+/* section low-price 시작 */
+
+#section-lowprice {}
+
+ul.lowprice-list-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.lowprice-list-box li.lowprice-list {
+    border: 1px solid #777;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+ul.lowprice-list-box li.lowprice-list img {
+    margin-bottom: 40px;
+}
+
+ul.lowprice-list-box li.lowprice-list div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+ul.lowprice-list-box li.lowprice-list .car-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul.lowprice-list-box li.lowprice-list .car-price {
+    font-size: 20px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+ul.lowprice-list-box li.lowprice-list button {
+    width: 100%;
+    background-color: #102A71;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+/* section low-price 끝 */
+
+/* section type car 시작 */
+
+#section-typecar {
+    background-color: #f8f8f8;
+}
+
+ul.cartabs{
+    display: flex;
+    font-size: 18px;
+}
+
+ul.cartabs li{
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-bottom: -2px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #102A71;
+    color: #102A71;
+}
+
+ul.cartabs li.select{
+    color: #fff;
+    background-color: #102A71;
+}
+
+.car-content{
+/*     display: none; */
+    margin-top: 20px;
+    padding: 45px 0;
+}
+
+.car-content.select{
+    display: inherit;
+}
+
+.typecar-list-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.typecar-list-box .typecar-list {
+    width: 300px;
+    transition: all 0.3s;
+    padding: 80px 20px 40px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.typecar-list-box .typecar-list:hover {
+    transition: all 0.3s;
+    box-shadow: 5px 5px 10px #d9d9d9;
+}
+.typecar-list-box .typecar-list img {
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.typecar-list-box .typecar-list div {
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+.typecar-list-box .typecar-list .car-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.typecar-list-box .typecar-list .car-price {
+    font-size: 20px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+.typecar-list-box .typecar-list button {
+    width: 100%;
+    background-color: #102A71;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+/* section type car 끝 */
+
+
+/* section-banner 시작 */
+
+
+#section-banner.section {
+    padding: 0;
+}
+
+.section-banner-bg {
+    background-image: url(../images/pc_banner.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.section-banner-box .banner-title {
+    position: absolute;
+    color: #fff;
+    font-size: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+}
+
+.section-banner-box .banner-title .text-point {
+    font-weight: bold;
+}
+
+/* section-banner 끝 */
+
+/* section-review 시작 */
+
+.review-list-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review-list-box li.review-list {
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px #cfcfcf;
+}
+
+.review-list-box li.review-list .review-top {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.review-list-box .star-point {
+    color: #FFCE0F;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.review-list-box .member-name {
+    font-size: 14px;
+    color: #999;
+    margin-right: 5px;
+}
+.review-list-box .write-date {
+    font-size: 14px;
+    color: #999;
+}
+
+.review-list-box li.review-list .review-mid {
+    margin-bottom: 10px;
+}
+
+.review-list-box li.review-list .review-bot {
+
+}
+
+.review-list-box .tag-list {
+    padding: 4px;
+    background-color: #89CFF0;
+    color: #fff;
+}
+/* section-review 끝 */
+
+/* section-partner 시작 */
+
+#section-partner {
+    background-color: #F6F6F6;
+}
+
+.partner-list-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-list-box li.partner-list {
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+li.partner-list img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    transition: all .3s;
+}
+
+li.partner-list:hover img {
+    scale: 1.1;
+    transition: all .3s;
+}
+
+li.partner-list .brand-box {
+    padding: 15px;
+}
+
+li.partner-list .brand-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li.partner-list .brand-info {
+    color: #666;
+}
+
+li.partner-list .brand-tel {
+    margin-bottom: 15px;
+}
+
+li.partner-list .brand-address {
+    color: #102A71;
+    font-weight: 500;
+}
+
+/* section-partner 끝 */
+
+/* section-board 시작 */
+
+.board-sort-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board-sort-box .board-main-box {
+    width: 30%;
+}
+
+.board-sort-box .board-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.board-sort-box .board-section .board-title-m {
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+    margin-bottom: -31px;
+    display: inline-block;
+}
+
+.board-sort-box .board-section .more-btn {
+    font-size: 14px;
+    width: 60px;
+}
+
+.board-sort-box table {
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #102A71;
+    border-bottom: 1px solid #102A71;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    color: #999;
+}
+
+.board-sort-box table tr {
+    padding: 10px;
+}
+
+.board-sort-box table tr td:nth-child(2){
+    text-align: right;
+}
+/* section-board 끝 */
+
+@media screen and (max-width: 1300px) {
+    /* section 1 */
+    /* section 1 끝 */
+
+
+    /* section 2 */
+
+    ul.event-list-box {
+        width: 100%;
+    }
+
+    ul.event-list-box li {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    ul.event-list-box li:first-child {
+        margin-left: 0px;
+    }
+
+    ul.event-list-box li:last-child {
+        margin-right: 0px;
+    }
+
+    ul.event-list-box li img {
+        width: 100%;
+    }
+
+    /* section 2 끝 */
+
+
+    /* section 3 */
+
+    #section-lowprice {}
+
+    ul.lowprice-list-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    ul.lowprice-list-box li.lowprice-list {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list:first-child {
+        margin-left: 0px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list:last-child {
+        margin-right: 0px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list img {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    ul.lowprice-list-box li.lowprice-list div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list .car-name {
+        overflow: hidden;  		
+        text-overflow: ellipsis;  	
+        white-space: nowrap; 		
+        word-break:break-all;
+        width: 140px;
+    }
+    
+    ul.lowprice-list-box li.lowprice-list .car-price {
+        font-size: 18px;
+    }
+    
+    ul.lowprice-list-box li.lowprice-list button {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    
+    /* section 3 끝 */
+    /* section 4 */
+    
+    ul.cartabs li{
+        width: 120px;
+        font-size: 18px;
+        padding: 10px 0;
+        margin-bottom: -2px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid #102A71;
+        color: #102A71;
+    }
+    
+    ul.cartabs li.select{
+        color: #fff;
+        background-color: #102A71;
+    }
+    
+    .car-content{
+/*         display: none; */
+        margin-top: 20px;
+        padding: 45px 0;
+    }
+    
+    .car-content.select{
+        display: inherit;
+    }
+    
+    .typecar-list-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .typecar-list-box .typecar-list {
+        width: 100%;
+        padding: 60px 16px 30px 16px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .typecar-list-box .typecar-list:first-child {
+        margin-left: 0px;
+    }
+
+    .typecar-list-box .typecar-list:last-child {
+        margin-right: 0px;
+    }
+    
+    .typecar-list-box .typecar-list:hover {
+        box-shadow: 5px 5px 10px #d9d9d9;
+    }
+    .typecar-list-box .typecar-list img {
+        width: 100%;
+        height: inherit;
+        margin-bottom: 30px;
+    }
+    
+    .typecar-list-box .typecar-list div {
+        margin-bottom: 30px;
+        height: 80px;
+    }
+    
+    .typecar-list-box .typecar-list .car-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+    
+    .typecar-list-box .typecar-list .car-price {
+        font-size: 18px;
+    }
+    
+    .typecar-list-box .typecar-list button {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+
+    /* section 4 끝 */
+
+
+    /* section 5 */
+    
+    .section-banner-bg {
+        height: 400px;
+    }
+    
+    .section-banner-box .banner-title {
+        font-size: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5%;
+    }
+
+    /* section 5 끝 */
+
+    /* section 6 */
+
+
+
+    /* section 6 끝 */
+
+    /* section 7 */
+    
+    .partner-list-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .partner-list-box li.partner-list {
+        background-color: #fff;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    li.partner-list img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        transition: all .3s;
+    }
+    
+    li.partner-list:hover img {
+        scale: 1.1;
+        transition: all .3s;
+    }
+    
+    li.partner-list .brand-box {
+        padding: 15px;
+    }
+
+    li.partner-list .brand-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    li.partner-list .brand-info {
+        color: #666;
+    }
+
+    li.partner-list .brand-tel {
+        margin-bottom: 15px;
+    }
+
+    li.partner-list .brand-address {
+        color: #102A71;
+        font-weight: 500;
+    }
+
+    /* section 7 끝 */
+    /* section 8 */
+    /* section 8 끝 */
+}
+
+@media screen and (max-width: 1023px) {
+    /* section 1 */
+    
+    .section-home-bg {
+    	background-position: center;
+    }
+
+    .section-home-bg .main-book-box {
+        position: absolute;
+        width: 90%;
+        height: 300px;
+        padding: 20px;
+        bottom: 10%;
+    }
+    
+    .main-content{
+        margin-top: 10px;
+        padding: 20px 0;
+    }
+    
+    #carRent .carrent-form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #carRent .carrent-form input {
+        padding: 20px 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #carRent .carrent-form button {
+        margin: 0 auto;
+        width: 30%;
+        padding: 15px;
+    }
+    
+    #bookSearch .booksearch-form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #bookSearch .booksearch-form input {
+        padding: 20px 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #bookSearch .booksearch-form button {
+        margin: 0 auto;
+        width: 30%;
+        padding: 15px;
+    }
+
+    /* section 1 끝 */
+
+    /* section 2 */
+
+    ul.event-list-box li {
+        text-align: left;
+        word-break: keep-all;
+    }
+
+    /* section 2 끝 */
+
+    /* section 3 */
+
+    ul.lowprice-list-box li.lowprice-list {
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list img {
+        margin-bottom: 20px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list div {
+        margin-bottom: 20px;
+        height: 30px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list .car-name {
+        width: 100px;   
+    }
+    
+    ul.lowprice-list-box li.lowprice-list .car-price {
+        font-size: 16px;
+    }
+    
+    ul.lowprice-list-box li.lowprice-list button {
+        font-size: 16px;
+        padding: 6px 0;
+    }
+
+    ul.cartabs li{
+        width: 100px;
+        font-size: 18px;
+        padding: 10px 0;
+        margin-bottom: 0px;
+    }
+
+    /* section 3 끝 */
+    /* section 4 */
+
+    .car-content{
+/*         display: none; */
+        margin-top: 20px;
+        padding: 35px 0;
+    }
+    
+    .typecar-list-box .typecar-list {
+        width: 100%;
+        padding: 30px 15px 30px 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .typecar-list-box .typecar-list img {
+        margin-bottom: 20px;
+    }
+    
+    .typecar-list-box .typecar-list div {
+        margin-bottom: 20px;
+        height: 80px;
+    }
+    
+    .typecar-list-box .typecar-list .car-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        height: 20px;
+    }
+    
+    .typecar-list-box .typecar-list .car-price {
+        font-size: 18px;
+    }
+    
+    .typecar-list-box .typecar-list button {
+        font-size: 16px;
+        padding: 6px 0;
+    }
+
+    /* section 4 끝 */
+    /* section 5 */
+
+    .section-banner-bg {
+        background-size: auto;
+        background-position: center;
+        height: 400px;
+    }
+    
+    .section-banner-box .banner-title {
+        font-size: 30px;
+    }
+
+    /* section 5 끝 */
+    /* section 6 */
+
+    .review-list-box li.review-list .review-top {
+        display: block;
+    }
+
+    /* section 6 끝 */
+    
+    
+    .board-sort-box {
+        display: block;
+    }
+    
+    .board-sort-box .board-main-box {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    /* 525 */
+    /* section 1 */
+    
+    .section-home-bg {
+    	background-position: center center;
+    }
+    
+    .section-home-bg .main-book-box {
+        position: absolute;
+        width: 90%;
+        height: 300px;
+        padding: 20px;
+        bottom: 10%;
+    }
+    
+    .main-content{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    /* section 1 끝*/
+    /* section 2 */
+
+    ul.event-list-box  {
+        display: block;
+    }
+
+    ul.event-list-box li {
+        margin-bottom: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    ul.event-list-box li p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* section 2 끝 */
+    /* section 3 */
+
+    ul.lowprice-list-box {
+        display: block;
+    }
+
+    ul.lowprice-list-box li.lowprice-list {
+        padding: 10px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list img {
+        margin-bottom: 20px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list div {
+        margin-bottom: 20px;
+        height: 30px;
+    }
+
+    ul.lowprice-list-box li.lowprice-list .car-name {
+        width: 260px; 
+    }
+    
+    ul.lowprice-list-box li.lowprice-list button {
+   		height: 40px;
+        font-size: 16px;
+        padding: 10px 0;
+        margin-bottom: 4px;
+    }
+
+    ul.cartabs li{
+        width: 100px;
+        font-size: 18px;
+        padding: 10px 0;
+        margin-bottom: 0px;
+    }
+
+    /* section 3 끝 */
+
+
+    /* section 4 */
+
+    .car-content{
+/*         display: none; */
+        margin-top: 20px;
+        padding: 35px 0;
+    }
+
+    .typecar-list-box {
+        display: block;
+    }
+    
+    .typecar-list-box .typecar-list {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px #d9d9d9;
+    }
+    
+    .typecar-list-box .typecar-list div {
+        height: 60px;
+    }
+    
+    .typecar-list-box .typecar-list .car-name {
+        height: 20px;
+    }
+    
+    .typecar-list-box .typecar-list button {
+        padding: 8px 0;
+    }
+    
+    
+
+    /* section 4 끝*/
+
+    /* section 5 */
+
+    .section-banner-bg {
+        background-size: auto;
+        background-position: center;
+        height: 600px;
+    }
+    
+    .section-banner-box .banner-title {
+        font-size: 30px;
+    }
+
+    /* section 5 끝*/
+
+
+    /* section 6 */
+
+    .review-list-box {
+        display: block;
+    }
+
+    .review-list-box li.review-list {
+        width: 100%;
+    }
+
+    .review-list-box li.review-list .review-top {
+        display: flex;
+    }
+
+    /* section 6 끝 */
+    /* section 7 */
+
+    .partner-list-box {
+        display: block;
+    }
+    
+    .partner-list-box li.partner-list {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    li.partner-list img {
+        width: 100%;
+    }
+    
+    li.partner-list .brand-box {
+        padding: 15px;
+    }
+
+    li.partner-list .brand-name {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    li.partner-list .brand-info {
+        color: #666;
+    }
+
+    li.partner-list .brand-tel {
+        margin-bottom: 16px;
+    }
+
+    li.partner-list .brand-address {
+        color: #102A71;
+        font-weight: 500;
+    }
+
+    /* section 7 끝 */
+
+    /* section 8 */
+    
+    .board-sort-box .board-section .board-title-m {
+        font-size: 25px;
+    }
+
+    /* section 8 끝 */
+}
+
+@media screen and (max-width: 524px) {
+    /* 375 */
+
+    /* section 1 */
+
+    .section-home-bg .main-book-box {
+        bottom: 20%;
+    }
+
+    #carRent .carrent-form button {
+        width: 50%;
+    }
+    
+    #bookSearch .booksearch-form button {
+        width: 50%;
+    }
+
+    /* section 1 끝 */
+
+
+    /* section 2 */
+
+
+    /* section 2 끝 */
+
+
+    /* section 3 */
+
+	ul.lowprice-list-box li.lowprice-list .car-name {
+        width: 220px; 
+    }
+
+    /* section 3 끝 */
+
+
+    /* section 4 */
+
+    .car-content{
+        padding: 25px 0;
+    }
+
+    ul.cartabs {
+        flex-wrap: wrap;
+    }
+
+    ul.cartabs li{
+        width: 80px;
+        font-size: 16px;
+        padding: 10px 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    .typecar-list-box .typecar-list {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px #d9d9d9;
+    }
+    
+    .typecar-list-box .typecar-list div {
+        height: 60px;
+    }
+    
+    .typecar-list-box .typecar-list .car-name {
+        height: 20px;
+    }
+    
+    .typecar-list-box .typecar-list button {
+        padding: 8px 0;
+    }
+
+    /* section 4 끝 */
+
+
+    /* section 5 */
+
+    .section-banner-bg {
+        background-size: auto;
+        background-position: center;
+        height: 400px;
+    }
+    
+    .section-banner-box .banner-title {
+        font-size: 20px;
+        right: 3%;
+    }
+
+    /* section 5 끝 */
+
+
+}
+

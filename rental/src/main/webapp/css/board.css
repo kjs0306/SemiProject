@@ -1,0 +1,542 @@
+
+#board-main .board-inner{
+    padding: 180px 0;
+}
+
+.board-title, .board-search-box, .board-list-box {
+    width: 100%;
+}
+
+.board-title {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #102A71;
+    font-size: 32px;
+    font-weight: bold;
+    color: #102A71;
+    margin-bottom: 40px;
+}
+
+.board-search-box {
+    background-color: #F6F6F6;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.board-search-box .board-search {
+    text-align: center;
+    
+}
+
+.board-search-box .board-search select, .board-search-box .board-search input, .board-search-box .board-search button {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.board-search-box .board-search select, .board-search-box .board-search input {
+    border: 1px solid #999;
+}
+
+.board-search-box .board-search button {
+    border: none;
+    background-color: #102A71;
+    color: #fff;
+}
+
+.board-list-box .board-top-btn-box {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.board-list-box .board-top-btn-box a {
+    background-color: #102A71;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.board-list-box .board-box {
+    width: 100%;
+    border-top: 2px solid #102A71;
+    border-bottom: 2px solid #102A71;
+    border-collapse: collapse;
+}
+
+.board-list-box .board-box thead th {
+    color: #102A71;
+    font-size: 18px;
+    border-bottom: 2px solid #999;
+}
+
+.board-list-box .board-box th {
+    padding: 20px 0;
+    border-bottom: 1px solid #999;
+}
+
+.board-list-box .board-box th button {
+    cursor: pointer;
+}
+
+.board-list-box .board-box th.post-name {
+    width: 65%;
+}
+
+.board-list-box .board-top-btn-box button {
+    padding: 10px 20px;
+    background-color: #102A71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.board-list-box .board-box input {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+}
+
+/* board list 끝 */
+
+/* board write 시작 */
+
+.board-top-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+.board-write-box {
+    padding: 20px 50px;
+    border: 1px solid #102A71;
+    background-color: #fafafa;
+}
+
+.board-write-box .board-title-box {
+    padding: 20px 0;
+    border-bottom: 2px solid #102A71;
+}
+
+.board-write-box .board-title-text {
+    color: #102A71;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.board-write-box .board-title-box input {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+}
+
+.board-write-box .board-info-box {
+    padding: 20px 0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.board-write-box .board-info-text {
+    color: #102A71;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.board-write-box .board-info-box textarea {
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    outline: none;
+}
+
+.board-write-box .img-frame {
+    margin-bottom: 20px;
+}
+
+.board-write-box .img-frame img {
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.board-write-box .img-frame .label-tag {
+    font-weight: bold;
+    color: #102A71;
+}
+
+.board-write-box .btn-frame {
+    text-align: center;
+}
+
+.board-write-box .btn-frame button {
+    padding: 10px 20px;
+    background-color: #102A71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* board write 끝 */
+
+.board-list-box .promo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board-list-box .promo-list li {
+    margin-right: 50px;
+}
+
+.board-list-box .promo-list li:last-child {
+    margin-right: 0px;
+}
+
+.board-list-box .promo-list img {
+    margin-bottom: 14px;
+}
+
+.board-list-box .promo-list .promo-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* promo list 시작 */
+
+
+
+/* promo list 끝 */
+
+/* BoardRead 시작 */
+
+/* board write 시작 */
+
+.board-top-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+.board-read-box {
+    padding: 20px 50px;
+    border: 1px solid #102A71;
+    background-color: #fafafa;
+}
+
+.board-read-box .board-title-box {
+    padding: 20px 0;
+    border-bottom: 2px solid #102A71;
+}
+
+.board-read-box .board-title-text {
+    color: #102A71;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.board-read-box .board-title-box input {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.board-read-box .board-info-box {
+    padding: 20px 0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.board-read-box .board-info-text {
+    color: #102A71;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.board-read-box .board-info-box textarea {
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.board-read-box .img-frame {
+    margin-bottom: 20px;
+}
+
+.board-read-box .img-frame img {
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.board-read-box .img-frame .label-tag {
+    font-weight: bold;
+    color: #102A71;
+}
+
+.board-read-box .btn-frame {
+    text-align: center;
+}
+
+.board-read-box .btn-frame button {
+    padding: 10px 20px;
+    background-color: #102A71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* board write 끝 */
+
+/* BoardRead 시작 */
+
+.board-read-box {
+    width: 100%;
+}
+.board-read-box .board-top-info-box {
+    width: 100%;
+    text-align: right;
+}
+
+.board-read-box .board-top-info-box .span-point {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.board-read-box .board-top-info-box .write-date {
+    margin-left: 30px;
+}
+
+.board-read-box .board-top-info-box .review-point {
+    margin-left: 30px;
+}
+
+.board-read-box .board-top-info-box .review-point {
+    font-size: 16px;
+    color: #F6F6F6;
+}
+
+.board-read-box .board-top-info-box .y-point {
+    color: #FFCE0F;
+    letter-spacing: 3px;
+    margin-right: 0px;
+    font-size: 16px;
+} 
+
+/* BoardRead 끝 */
+
+
+@media screen and (max-width: 1300px) {
+
+    .board-write-box .board-title-box input {
+        width: 40%;
+    }
+
+    .board-read-box .board-title-box input {
+        width: 40%;
+    }
+
+    .board-list-box .promo-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    
+    .board-list-box .promo-list li {
+        margin-right: 50px;
+        width: 33%;
+    }
+    
+    .board-list-box .promo-list img {
+        margin-bottom: 14px;
+        width: 100%;
+    }
+    
+    .board-list-box .promo-list .promo-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .board-write-box .img-frame img {
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #board-main .board-inner{
+        padding: 150px 0;
+    }
+
+    .board-list-box .board-box th.post-name {
+        width: inherit;
+    }
+    .board-list-box .board-box th.post-name a{
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 200px;
+        height: 20px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .board-list-box .promo-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    
+    .board-list-box .promo-list li {
+        margin-right: 50px;
+        width: 33%;
+    }
+    
+    .board-list-box .promo-list img {
+        margin-bottom: 14px;
+        width: 100%;
+    }
+    
+    .board-list-box .promo-list .promo-title {
+        font-size: 15px;
+    }
+
+    /* board 끝 */
+}
+
+@media screen and (max-width: 767px) {
+    /* 525 */
+    #board-main .board-inner{
+        padding: 120px 0;
+    }
+
+    .board-title {
+        padding-bottom: 20px;
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .board-search-box {
+        height: 160px;
+        margin-bottom: 40px;
+    }
+
+    .board-list-box .board-top-btn-box a {
+        padding: 8px 16px;
+    }
+
+    .board-list-box .board-box thead th {
+        font-size: 16px;
+    }
+
+    .board-list-box .board-box th.post-name a{
+        width: 160px;
+        padding-left: 20px;
+    }
+
+    .board-write-box .board-title-box input {
+        width: 100%;
+    }
+
+    .board-read-box .board-title-box input {
+        width: 100%;
+    }
+
+    .board-list-box .promo-list {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .board-list-box .promo-list li {
+        margin-right: 50px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .board-list-box .promo-list img {
+        margin-bottom: 14px;
+        width: inherit;
+    }
+    
+    .board-list-box .promo-list .promo-title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    /* 375 */
+
+    .board-search-box .board-search select, .board-search-box .board-search input, .board-search-box .board-search button {
+        padding: 5px 10px;
+        cursor: pointer;
+        margin-right: 5px;
+        height: 30px;
+    }
+    
+    .board-search-box .board-search select, .board-search-box .board-search input {
+        border: 1px solid #999;
+        width: 100px;
+    }
+    
+    .board-search-box .board-search button {
+        border: none;
+        background-color: #102A71;
+        color: #fff;
+    }
+
+    .board-list-box .board-box th.post-name a{
+        width: 100px;
+        padding-left: 0px;
+    }
+
+    .board-list-box .mo {
+        display: none;
+    }
+
+    .board-read-box .board-top-info-box .span-point {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    .board-read-box .board-top-info-box .write-date {
+        margin-left: 5px;
+    }
+
+    .board-list-box .promo-list img {
+        width: 100%;
+    }
+    
+
+    
+}
+
+
+
+

@@ -1,0 +1,673 @@
+.mypage-content-box {
+    display: flex;
+    padding: 250px 0;
+}
+
+.mypage-info-box {
+    width: 300px;
+    border: #102A71;
+}
+
+.mypage-title {
+    margin-bottom: 40px;
+    padding-left: 140px;
+}
+
+.myinfotabs li.tab-myselect{
+    padding: 20px 15px;
+    cursor: pointer;
+    padding-left: 140px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.myinfotabs li.myselect{
+    background-color: #102A71;
+    color: #fff;
+}
+
+.mypage-view-box {
+    width: 100%;
+}
+
+.mypage-content {
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.mypage-content .mypage-tabmenu {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #102A71;
+    color: #102A71;
+}
+
+.my-content.myselect{
+    display: inherit;
+}
+
+
+.adm-form {
+    width: 600px;
+}
+
+.adm-form-title {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #102A71;
+    font-weight: bold;
+}
+
+.adm-form .form-frame {
+    margin-bottom: 15px;
+}
+
+.adm-form .form-frame .label-tag {
+    width: 120px;
+}
+
+.adm-form .form-frame input {
+    outline: none;
+    padding: 10px;
+    width: 400px;
+}
+
+.adm-form input[readonly] {
+    background-color: #D4D4D4;
+    border: none;
+}
+
+.form-frame {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.adm-form .form-frame input.s-input {
+    width: 120px;
+}
+
+.adm-form .form-frame input.s-input.s-mr {
+    margin-right: 40px;
+}
+
+.adm-form-box .img-frame {
+    padding: 20px 0;
+}
+
+.img-frame input[type=file] {
+    width: 200px;
+    padding-left: 0px;
+}
+
+.btn-frame {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.account-delete {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    background-color: inherit;
+}
+
+#preview {
+    width: 200px;
+    height: 100px;
+}
+
+.btn-frame button[type=submit] {
+    background-color: #102A71;
+    color: #fff;
+}
+
+.btn-frame button {
+    width: 160px;
+    padding: 15px;
+    background-color: inherit;
+    border: 1px solid #102A71;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+/* mymodify 시작  */
+
+.member-modify .email-part .first-email {
+    width: 20% !important;
+}
+
+.member-modify .email-part .at {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.member-modify .email-part .second-email {
+    width: 20% !important;
+    margin-right: 12px;
+}
+
+.member-modify .email-part select {
+    padding: 10px;
+}
+
+.member-modify .gender-part {
+    display: flex;
+    align-items: center;
+}
+
+.member-modify .age-part {
+    display: flex;
+    align-items: center;
+}
+
+.member-modify .address-part .mail-sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-modify .address-part {
+    width: 100% !important;
+}
+
+.member-modify .address-part input#sample3_postcode{
+    width: 70% !important;
+    margin-right: 10px;
+}
+
+.member-modify .address-part .w2 {
+    width: 30% !important;
+    margin-left: 10px;
+    background-color: #102A71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.member-modify .address-part .mail-gap {
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+.member-modify .address-part input.w3 {
+    width: 100% !important;
+}
+
+.member-modify .address-part input.w4 {
+    width: 100% !important;
+    margin-right: 10px;
+}
+.member-modify .address-part .w5 {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.member-modify .submit-btn {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: #102A71;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#myinfo .form-frame {
+    margin-bottom: 15px;
+}
+
+#myinfo input.first-email {
+    width: 400px !important;
+}
+
+#myinfo input.w1 {
+    border: none;
+    background-color: #D4D4D4;
+}
+/* mymodify 끝  */
+
+/* mybook search 시작 */
+
+#mybook .content-list table {
+    width: 100%;
+    border-bottom: 2px solid #102A71;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#mybook .content-list table th {
+    padding: 10px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+#mybook .content-list table td {
+    padding: 15px 0;
+
+}
+
+#mybook .content-list table button {
+    cursor: pointer;
+}
+
+/* botton-content */
+
+#mybook .table-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#mybook .table-title {
+    color: #102A71;
+    font-size: 24px;
+}
+
+#mybook .bottom-content thead {
+    color: #102A71;
+}
+
+#mybook .table-top button {
+    background-color: #102A71;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* mybook search 끝 */
+
+/* change-pwd 시작 */
+
+#changepwd {}
+#changepwd form.changepwd {
+    width: 300px;
+}
+
+#changepwd form.changepwd .form-fram {
+
+}
+
+#changepwd form.changepwd input {
+    width: 100%;
+    padding: 10px;
+}
+
+#changepwd form.changepwd button {
+    width: 100%;
+    padding: 10px;
+    background-color: #102A71;
+    color: #fff;
+}
+
+/* change-pwd 끝 */
+
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1023px) {
+    /* my info 시작 */
+    
+    .mypage-content-box.inner {
+       padding-left: 0px;
+    }
+
+    .mypage-content-box {
+        display: flex;
+        padding: 200px 0;
+    }
+
+    .mypage-info-box {
+        width: 200px;
+    }
+
+    .mypage-title {
+        margin-bottom: 30px;
+        padding-left: 60px;
+    }
+
+    .myinfotabs li.tab-myselect {
+        padding: 16px 12px;
+        padding-left: 60px;
+    }
+
+    .mypage-view-box {
+        width: 100%;
+    }
+
+    .mypage-content {
+        width: 100%;
+        padding: 0px 50px;
+    }
+
+    .mypage-content .mypage-tabmenu {
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+    }
+
+    .adm-form {
+        width: 100%;
+    }
+
+    #mybook .mo {
+        display: none;
+    }
+
+    .adm-form-title {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .adm-form .form-frame {
+        margin-bottom: 15px;
+    }
+
+    .adm-form .form-frame .label-tag {
+        width: 90px;
+    }
+
+    .adm-form .form-frame input {
+        outline: none;
+        padding: 10px;
+        width: 400px;
+    }
+
+    .adm-form .form-frame input.s-input {
+        width: 300px;
+    }
+
+    .adm-form .form-frame input.s-input.s-mr {
+        margin-right: 40px;
+    }
+
+    .adm-form-box .img-frame {
+        padding: 20px 0;
+    }
+    .btn-frame {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .btn-frame button[type=submit] {
+        background-color: #102A71;
+        color: #fff;
+    }
+
+    .member-modify .email-part .first-email {
+        width: 25% !important;
+    }
+    
+    .member-modify .email-part .at {
+        margin: 0 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .member-modify .email-part .second-email {
+        width: 25% !important;
+        margin-right: 10px;
+    }
+    
+    .member-modify .email-part select {
+        padding: 10px;
+    }
+
+    .btn-frame button {
+        width: 160px;
+        padding: 15px;
+        background-color: inherit;
+        border: 1px solid #102A71;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 30px;
+    }
+
+    .adm-form div#wrap {
+        width: 400px !important;
+    }
+
+    /* my info 끝 */
+}
+
+@media screen and (max-width: 767px) {
+    /* my info 시작 */
+
+    .mypage-content-box {
+        display: block;
+        width: 100%;
+        padding: 120px 20px;
+    }
+
+    .mypage-content-box .myinfotabs {
+        display: flex;
+    }
+
+    .mypage-info-box {
+        width: 100%;
+    }
+
+    .mypage-title {
+        margin-bottom: 30px;
+        padding-left: 0px;
+        font-size: 28px;
+    }
+
+    .myinfotabs {
+        margin-bottom: 40px;
+    }
+
+    .myinfotabs li.tab-myselect {
+        padding-left: 0px;
+        padding: 12px;
+    }
+
+    .mypage-view-box {
+        width: 100%;
+    }
+
+    .mypage-content {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .mypage-content .mypage-tabmenu {
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        font-size: 24px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .adm-form-title {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .adm-form {
+        width: 100%;
+    }
+
+    .adm-form .form-frame {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .adm-form .form-frame .label-tag {
+        width: 90px;
+    }
+
+    .adm-form .form-frame input {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .adm-form .form-frame input.s-input {
+        width: 100%;
+    }
+
+    .adm-form .form-frame input.s-input.s-mr {
+        margin-right: 40px;
+    }
+
+    .member-modify .gender-part {
+        display: block;
+        align-items: center;
+    }
+    
+    .member-modify .age-part {
+        display: block;
+        align-items: center;
+    }
+
+    .adm-form-box .img-frame {
+        padding: 20px 0;
+    }
+    .btn-frame {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #myinfo input.first-email {
+        width: 100% !important;
+    }
+
+    .member-modify .email-part .first-email {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .member-modify .email-part .at {
+        display: none;
+    }
+    
+    .member-modify .email-part .second-email {
+        width: 50% !important;
+        margin-right: 20px;
+    }
+    
+    .member-modify .email-part select {
+        width: 44%;
+        padding: 10px 5px;
+    }
+
+    .member-modify .address-part .mail-sort {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .member-modify .address-part {
+        width: 100% !important;
+        margin-bottom: 50px
+    }
+    
+    .member-modify .address-part input#sample3_postcode{
+        width: 70% !important;
+    }
+    
+    .member-modify .address-part .w2 {
+        width: 30% !important;
+    }
+    
+    .member-modify .address-part .mail-gap {
+        margin-bottom: 15px;
+        width: 100% !important;
+    }
+    
+    .member-modify .address-part input.w3 {
+        width: 100% !important;
+    }
+    
+    .member-modify .address-part input.w4 {
+        width: 70% !important;
+        margin-right: 10px;
+    }
+    .member-modify .address-part .w5 {
+        margin-left: 10px;
+        width: 30%;
+    }
+
+    .member-modify .address-part .mail-gap {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .btn-frame button {
+        width: 160px;
+        padding: 15px;
+        background-color: inherit;
+        border: 1px solid #102A71;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 30px;
+        margin-right: 10px;
+    }
+
+    .adm-form div#wrap {
+        width: 300px !important;
+    }
+
+    #changepwd {}
+    #changepwd form.changepwd {
+        width: 100%;
+    }
+
+    #changepwd form.changepwd .form-fram {
+
+    }
+
+    #changepwd form.changepwd input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #changepwd form.changepwd button {
+        width: 100%;
+        padding: 10px;
+        background-color: #102A71;
+        color: #fff;
+    }
+
+    /* my info 끝 */
+}
+
+@media screen and (max-width: 524px) {
+    .myinfotabs li.tab-myselect {
+        padding-left: 0px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .member-modify .email-part .second-email {
+        width: 70% !important;
+        margin-right: 10px;
+    }
+    
+    .member-modify .email-part select {
+        width: 25%;
+        padding: 10px 5px;
+    }
+
+    .btn-frame button {
+        width: 130px;
+        padding: 15px;
+        background-color: inherit;
+        border: 1px solid #102A71;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+    }
+}
+
+
